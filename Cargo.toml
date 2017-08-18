@@ -15,7 +15,6 @@ build = "build.rs"
 unstable = []
 
 [dependencies]
-regex = "~0.1.8"
 phf = "~0.7.3"
 
 [build-dependencies]
