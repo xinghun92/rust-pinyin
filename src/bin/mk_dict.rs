@@ -1,7 +1,7 @@
 use std::collections::HashSet;
 
 fn main() {
-    let dict = include_str!("../../pinyin-data/pinyin.txt");
+    let dict = include_str!("../../pinyin-data/kXHC1983.txt");
 
     // 带声调字符 PHONETIC_SYMBOL_MAP
     let mut phonetic_symbol_map = vec![
