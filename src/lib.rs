@@ -198,7 +198,7 @@ fn apply_style(pys: Vec<String>, a: &Args) -> Vec<String> {
     new_pys
 }
 
-fn single_pinyin(c: char, a: &Args) -> Vec<String> {
+pub fn single_pinyin(c: char, a: &Args) -> Vec<String> {
     let ret: Vec<String> = PINYIN_MAP
         .binary_search_by_key(&c, |&(k, _)| k)
         .map(|index| {
